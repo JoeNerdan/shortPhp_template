@@ -2,6 +2,7 @@
 //this when project folder is /var/www/projectRoot
 $projectFolder = end(explode('/', getcwd()));
 //this when project folder is /var/www/
+// FIXME need to correct paths in menu, script and style
 //$projectFolder = "/"
 ?>
 <?php include 's.php'; ?>
